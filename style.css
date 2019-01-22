@@ -1,3 +1,6 @@
+html {
+	scroll-behavior: smooth;
+}
 body {
     font-family: 'Ubuntu', sans-serif;
 	letter-spacing: .0625em;
@@ -161,11 +164,6 @@ hr + h2 {
 	padding: 60px 10px;
 }
 
-.section-image:hover {
-	background-color: yellow;
-}
-
-
 /*About Section*/
 .about-section {
 	background-color: #F2F2F2;
@@ -204,6 +202,13 @@ hr + h2 {
 
 .row {
 	justify-content: space-between;
+	display: flex;
+}
+
+@media screen and (max-width: 600px) {
+     .row {
+    	justify-content: center;
+   	}
 }
 
 
