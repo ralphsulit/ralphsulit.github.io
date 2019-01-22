@@ -27,6 +27,9 @@ hr + h2 {
 	background-color: rgba(29, 29, 29, .9) !important;
 }
 
+.gray {
+	color: gray;
+}
 
 /*Navigation*/
 #mainNav {
@@ -107,30 +110,17 @@ hr + h2 {
 	padding-top: 10rem;
 	padding-bottom: 10rem;
 	background-color: rgb(29, 29, 29) !important;
-	line-height: 260px;
+	line-height: 100px;
 }
-
-.header-logo {
-	border: 3px solid gray;
-	border-radius: 20px;
-	padding: 0px 55px;
-	font-size: 80px;
-	font-family: 'Changa', sans-serif;
-}
-
-.header-logo:hover {
-	background-color: gray;
-}
-
-.gray {
-	color: gray;
-}
-
 
 .material-icons {
 	font-size: 7em !important;
 	color: white;
-	margin-top: 5%;
+	margin-top: 20%;
+}
+
+.brand {
+	margin-top: 10%;
 }
 
 
