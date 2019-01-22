@@ -33,12 +33,12 @@ hr + h2 {
 	background-color: rgba(29, 29, 29, 0.8) !important;
 }
 
-.navbar-brand {
+/*.navbar-brand {
 	height: 66px;
 	line-height: 48px;
 	font-size: 2em;
 	margin-top: 4px;
-}
+}*/
 
 .fixed-top{
 	position: fixed;
@@ -46,9 +46,9 @@ hr + h2 {
 
 .logo {
 	font-family: 'Changa', sans-serif;
-	border: 2px solid gray;
+/*	border: 2px solid gray;
 	border-radius: 10px;
-	padding: 2px 20px;
+	padding: 2px 20px;*/
 }
 
 @media (min-width: 768px) {
@@ -149,14 +149,6 @@ hr + h2 {
 	text-transform: uppercase;
 }
 
-
-.tool-icon {
-	width: 100px;
-	height: 100px;
-	margin: 0 5px;
-	filter: grayscale(100%);
-}
-
 .section-container {
 	text-align: center;
 	margin: 0 auto;
@@ -185,14 +177,15 @@ hr + h2 {
 	line-height: 100px;
 }
 
+.tool-icon {
+	width: 100px;
+	height: 100px;
+	margin: 0 5px;
+}
+
 .icon-row {
 	display: inline-block;
 }
-
-.tool-icon:hover {
-	filter: none;
-}
-
 
 /*Portfolio Section*/
 .portfolio-section {
@@ -221,6 +214,11 @@ hr + h2 {
 
 .btn {
 	font-weight: bolder;
+}
+
+.btn:hover {
+	background-color: rgb(250,128,114);
+	border-color: rgb(250,128,114);
 }
 
 .social-icon {
